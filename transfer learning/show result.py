@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from PIL import ImageFont, ImageDraw, Image
  
 #%%
-model = load_model('model.h5')
+model = load_model('./model.h5')
 model.summary()
  
 # open webcam (웹캠 열기)
