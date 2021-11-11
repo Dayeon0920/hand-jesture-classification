@@ -7,9 +7,9 @@ from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
  
  
-path_dir1 = './transfer learning/rock/'
-path_dir2 = './transfer learning/paper/'
-path_dir3 = './transfer learning/scissors/'
+path_dir1 = './transfer learning/one/'
+path_dir2 = './transfer learning/two/'
+path_dir3 = './transfer learning/fist/'
  
 file_list1 = os.listdir(path_dir1) # path에 존재하는 파일 목록 가져오기
 file_list2 = os.listdir(path_dir2)

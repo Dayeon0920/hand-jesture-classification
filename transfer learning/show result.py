@@ -37,11 +37,11 @@ while webcam.isOpened():
  
     
     if predicted_class == 0:
-        me = "바위"
+        me = "일"
     elif predicted_class == 1:
-        me = "보"        
+        me = "이"        
     elif predicted_class == 2:
-        me = "가위"
+        me = "주먹"
                 
     # display
     fontpath = "font/gulim.ttc"

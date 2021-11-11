@@ -26,9 +26,9 @@ while webcam.isOpened():
     
     if sample_num == 4:
         captured_num = captured_num + 1
-        cv2.imwrite('./transfer learning/rock/img'+str(captured_num)+'.jpg', frame) # 바위 이미지 수집시
-        # cv2.imwrite('./transfer learning/paper/img'+str(captured_num)+'.jpg', frame) # 보 이미지 수집시
-        # cv2.imwrite('./transfer learning/scissors/img'+str(captured_num)+'.jpg', frame) # 가위 이미지 수집시
+        # cv2.imwrite('./transfer learning/one/img'+str(captured_num)+'.jpg', frame) # 손가락 하나 이미지 수집시
+        # cv2.imwrite('./transfer learning/two/img'+str(captured_num)+'.jpg', frame) # 손가락 둘 이미지 수집시
+        # cv2.imwrite('./transfer learning/fist/img'+str(captured_num)+'.jpg', frame) # 주먹 이미지 수집시
         sample_num = 0
         
     
