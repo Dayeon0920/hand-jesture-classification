@@ -5,7 +5,7 @@ from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
- 
+# gayeong jjang 
  
 path_dir1 = './hand jesture model/dataset/one hand-one'
 path_dir2 = './hand jesture model/dataset/one hand-two'
